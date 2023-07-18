@@ -1,0 +1,3 @@
+create table students (id INT PRIMARY KEY AUTO_INCREMENT NOT NULL, first_name CHAR(255) NOT NULL, last_name CHAR(255) NOT NULL, age INT NOT NULL);
+
+create table grades (id INT PRIMARY KEY AUTO_INCREMENT NOT NULL, student_id INT NOT NULL, grade INT NOT NULL);
